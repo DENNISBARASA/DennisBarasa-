@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: bisque;
+    padding: 10px;
+}
+.grid-item{
+    background-color: #faf1e5;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    position: sticky;
+    top:0%;
+}
+.item2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding:5px;
+    column-count: 2;
+}
+.item3{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    position: sticky;
+    bottom: 0%;
+}
+.header{
+    text-align: center;
+    text-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+}
+.back{
+    font-size:40px;
+    margin: 10px;
+}
+.item1 a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    padding: 14px 16px;
+    margin: 10px;
+    background-color: brown;
+    border-radius: 0px 20px;
+    color:bisque;
+    border: none;
+}
+h2{
+    writing-mode: vertical-lr;
+   letter-spacing: 3px; 
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    position: absolute;
+    display:none;
+    z-index: 1;
+
+}
+.dropdown-content a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    background-color: #de6666;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 2px 4px 6px rgba(0, 0, 0, 0.2);
+    
+}
+.diet{
+    background-color:bisque!important;
+}
+.dropdown-content a:hover{
+    background-color: bisque;
+}
+.dropdown-content a:active{
+    background-color:red;
+}
+.dropdown:hover .dropdown-content{ 
+    display: block;
+}
+
+.socials{
+    text-align: center;
+}
+.socials h4{
+    text-decoration: underline;
+}
+.facebook{
+    background-color: blue;
+
+}
+.instagram{
+    background:linear-gradient(blue, purple, red);
+}
+.tiktok{
+    background-color: black;
+}
+.x{
+    background-color: black;
+}
+.socials a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.footer{
+    padding: 5px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+.forward{
+    margin-left: 95%;
+}

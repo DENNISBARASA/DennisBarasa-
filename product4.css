@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: aliceblue;
+    gap: 10px;
+    padding: 10px;
+}
+.grid-item{
+    background-color: #020240;
+    color: white;
+    padding: 10px;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    position:sticky;
+    top: 0;
+}
+.item2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+ 
+}
+.item3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    column-count: 2;
+    background-color: #a3a3ef;
+    color: black;
+}
+.item4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: #a3a3ef;
+    color: black;
+
+}
+.item5{
+    grid-column-start: 1;
+    grid-column-end: 5;
+ 
+}
+.header{
+    text-align: center;
+}
+.black{
+    color: black;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.back{
+    color:white;
+    font-size: 40px;
+}
+.item1 a{
+    text-decoration: none;
+}
+.header h1{
+    text-shadow: 1px 2px 3px white,1px 2px 3px white,1px 2px 3px white,1px 2px 3px red,1px 2px 3px green;
+    font-size: 50px;
+}
+button h2 {
+    writing-mode: vertical-lr;
+}
+
+.dropdown{
+    position: relative;
+    display:inline-block ;
+
+}
+.dropdown-content{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    padding-right: 40px;
+    width: 300px;
+}
+.dropdown-content a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: #020240;
+    padding: 20px 0;
+    text-align: center;
+}
+.dropdown-content a:hover{
+    background-color: #a3a3ef;
+}
+.dropdown-content a:active{
+    background-color: red;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.red2{
+  background-color: red!important;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.nav a:hover{
+    background-color: #a3a3ef;
+    color:white;
+}
+.nav a:active{
+    background-color: red;
+}
+.active{
+    background-color: red;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+}
+.footer a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.x{
+    background-color: black;
+}
+.tiktok{
+    background-color: black;
+}
+.facebook{
+    background-color: blue;
+}
+.instagram{
+    background: linear-gradient(blue,purple,red);
+}
+.forward {
+    color: white;
+    margin-left: 95%;
+    text-decoration: none;
+    font-size: 40px;
+}
+.forward a{
+    font-size: 40px;
+}
+.more{
+    font-weight: bold;
+}
+span{
+    color: white;
+}
+.hot{
+    color: navy;
+    font-weight: bold;
+}
+@media only screen and(max-width:600px){
+    .item3,.item4{
+        width: 100%;
+    }
+     
+}

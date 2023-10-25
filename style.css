@@ -1,0 +1,157 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+body{
+  background-image:url(laptop2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow-y:scroll;
+  overflow-x: hidden;
+}
+
+.h1{
+    text-align: ;
+    margin-top: 15px;
+    text-shadow: 1px 2px 3px #774fe5, 1px 2px 3px #f2ecec, 1px 2px 3px #f2ecec;
+}
+.h2{
+    color: white;
+    font-size: -4em;
+    writing-mode:vertical-rl;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #e5e0fa;
+}
+.header a{
+    text-decoration: none;
+}
+.nav{
+    float: right;
+}
+.nav ul li{
+    display: inline-block;
+    padding: 19px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Home{
+    background-color: red;          
+}
+.nav ul li a:hover{
+    background-color: rgb(247, 242, 242);
+    color: #130101;
+}
+.nav ul li a:active{
+    background-color: red;
+}
+.nav2{
+    float:left;
+    padding:10px;
+}
+.nav2 a:active{
+    opacity: 0.8;
+}
+.nav2 ul li{
+    display: inline-block;
+    padding: 25px;
+    width: 50px;
+    height: 50px;
+}
+.nav2 ul li a{  
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius:50%;
+    aspect-ratio: 1/1;
+    box-shadow:-0 -1px #181918;
+
+}
+.nav2 ul li a:active{
+    
+}
+.x{
+    background-color: black;
+    
+}
+.insta{
+    background: linear-gradient(red,purple,blue);
+}
+.fb{
+    background-color:blue;
+}
+.grn{
+    background-color: #25ea25;
+}
+.wlcm{
+    text-align: center;
+    color: white;
+    width: 300px;
+    padding-top: 20px;
+    height:300px;
+    margin-left: 75%;
+    margin-top: 8%;
+    transform: translate(-50%);
+    background:linear-gradient(#121111,blue);
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    opacity:0.7 ;
+}  
+.yellow{
+    color: yellow;
+}
+.runing{
+    font-family: cursive;
+    font-style: italic;
+}
+h2{
+    font-size: 30px;
+}
+.dennio{
+    color: yellow;
+    font-size: 40px;
+}
+.footer{
+    text-align: right;
+    width: 100%;
+    margin-bottom: 20px;
+    clear: both;
+}
+h2,h3{
+    padding: 15px;
+}
+li.product{
+    position: relative;
+    display: inline-block;
+}
+.product-content{
+    position: absolute;
+    display: none;
+    z-index: 1;
+    color: white;
+    width: 100%;
+}
+.product-content a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.product-content a:hover{
+    background-color: aqua !important;
+}
+.product-content a:active{
+    background-color: #d1d1f7!important;
+}
+.product:hover .product-content{
+   display: block;
+}
+.footer{
+    color: #d1d1f7;
+}

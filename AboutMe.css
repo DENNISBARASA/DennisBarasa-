@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  margin: 0;  
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /*i was testing the apperance catch between linere-gradient and image and ia settled on image*/
+ /* background: linear-gradient(#ebc5aa,#351702);*/
+ background-image: url(Barasa.png.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position-x: center;
+ background-position-y:50px;*/
+
+}
+
+.header{
+  color:#763507;
+  text-align: center;
+  text-decoration:overline ;
+}
+.home{
+  writing-mode: vertical-rl;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.home a{
+  color: #763507;
+  font-size: 40px;
+}
+.title{
+  color:#2b1601;
+  border-top: 4px solid #351702;
+  border-bottom:1px solid #351702;
+  border-left:1px solid #351702;
+  border-right:1px solid #351702;
+  margin: 10px;
+  padding: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  top: 50px;
+}
+.message{
+  color:#e8660a;
+  border-top: 4px solid #f46a08;
+  border-bottom:1px solid #f46a08;
+  border-left:1px solid #f46a08;
+  border-right:1px solid #f46a08;
+  margin: 10px;
+  padding: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: calc(700px/1.5);
+  float: left;
+  left: 25%;
+}
+.message a{
+  color: #763507;
+}
+.socials{
+  color:#ef741c;
+  border-top: 4px solid #fcaa71;
+  border-bottom:1px solid #fcaa71;
+  border-left:1px solid  #fcaa71;
+  border-right:1px solid #fcaa71 ;
+  margin: 2SD0px;
+  padding: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width:calc(700px/2) ;
+  text-align: center;
+  float: right;
+  right: 25%;
+  
+}
+a{
+  text-decoration: none;
+  color:white;
+  padding: 5px;
+  border-radius: 20px;
+}
+.x{
+  background-color: black;
+}
+.facebook{
+  background-color: blue;
+}
+.instagram{
+  background:linear-gradient(blue, red, purple);
+}
+.tiktok{
+  background-color: black;
+}
+.copy{
+  color:#3c1a02;
+  clear: both;
+  padding:10px ;
+  text-align: center;
+}

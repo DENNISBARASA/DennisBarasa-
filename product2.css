@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   margin: 0;
+   font-family: cursive;
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+.container{
+display:flex ;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+.container::after{
+   content: " ";
+   display: table;
+   clear: both;
+}
+
+.item{
+    margin:10px ;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: grey;
+}
+.so{
+   color: white;
+}
+.ko{
+   color: green; 
+}
+.ru{
+   color: red;
+}
+.back{
+   font-size: 40px;
+   color: white;
+}
+.one a{
+   text-decoration: none;
+}
+.image1{
+    position: relative;
+    margin: 0 10px;
+    border-radius: 10px;
+ }
+ .text{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate( -50%);
+    font-size: 30px;
+    line-height: 28px;
+    color:orange;
+ }
+ .class-one{
+   color:yellow;
+ }
+ .class-two{
+    color: red;
+    text-decoration:line-through;
+ }
+ .product-image{
+    border: 1px solid white;
+    flex: 25%;
+    max-width: 25%;
+    padding: 1px 4px;
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+
+ }
+ .product-image img{
+   vertical-align: middle;
+   width: 100%;
+
+ }
+ .desc{
+    text-align: center;
+ }
+ h5{
+    color: orange;
+ }
+ .product-image:hover{
+    border-color: blue;
+ }
+ .socials{
+   text-align: center;
+ }
+.socials a{
+   text-decoration: none;
+   color: white;
+   margin: 0 10px;
+   text-align: center;
+   padding: 5px;
+   border-radius: 10px;
+}
+h4{
+   text-align: center;
+}
+.x{
+   background-color: black;
+   border-radius: 50% !important;
+}
+.instagram{
+   background:linear-gradient( red,purple,blue);
+}
+.facebook{
+   background-color: blue;
+}
+.whatsapp{
+   background-color: green;
+}
+.copyright{
+   color: white;
+   text-align: center;
+}
+.four a{
+ text-decoration: none;
+ color: white;
+}
+.forward{
+   margin-left: 95%;
+   font-size: 40px;
+}
+@media only screen and(max-width:600px) {
+      .container{ width: 100%;
+      }
+}
